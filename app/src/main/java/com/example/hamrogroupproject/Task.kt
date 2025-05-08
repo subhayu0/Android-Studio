@@ -52,7 +52,7 @@ fun CardScreen(){
     Column (
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFF00C897))
+            .background(Color(0xFF6650a4))
             .padding(16.dp)
     ){
         TopBar()
@@ -77,7 +77,8 @@ fun TopBar() {
                 color = Color.White
             )
             Text(
-                text = "Simple and easy to use app",
+                text = "We create easy app for you" +
+                        "",
                 fontSize = 17.sp,
                 color = Color.White
             )
@@ -176,7 +177,7 @@ fun SettingsButton() {
             Icon(
                 painter = painterResource(id = R.drawable.baseline_settings),
                 contentDescription = "Settings",
-                tint = Color(0xFF00C897),
+                tint = Color(0xFFEFB8C8),
                 modifier = Modifier.size(28.dp)
             )
             Spacer(modifier = Modifier.width(12.dp))
